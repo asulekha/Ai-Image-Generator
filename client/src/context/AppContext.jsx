@@ -10,7 +10,7 @@ const AppContextProvider = (props) => {
     const [showLogin, setShowLogin] = useState(false)
     const [token, setToken] = useState(localStorage.getItem('token'))
     //ab backend ke sath connection bannae ja raha h 
-    const backendUrl = "https://ai-image-generator-backend-iq29.onrender.com"
+    const backendUrl =  import.meta.env.VITE_BACKEND_URL
 
 
     const navigate = useNavigate();
