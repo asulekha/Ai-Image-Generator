@@ -39,7 +39,10 @@ export const assets = {
   step2,
   step3,
   twitter,
-  butterfly
+  butterfly,
+  image1,
+  image2,
+  image3
 }
 
 export const stepsData = [
